@@ -1,7 +1,11 @@
-section {
-    background: red;
-    height: 100vh;
+
+body {
     background-image:url("../img/download.jpg");
+}
+section {
+    
+    height: 100vh;
+    
 }
 
 .container1 {
@@ -16,6 +20,7 @@ section {
 display: flex;
 margin-top: 115px;
 margin-left: 51px;
+margin-bottom: 20px;
 
 }
 
