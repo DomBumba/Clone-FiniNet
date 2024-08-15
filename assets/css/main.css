@@ -1,9 +1,40 @@
 section {
     background: red;
-    height: 48vh;
+    height: 100vh;
+    background-image:url("../img/download.jpg");
 }
 
-.container {
+.container1 {
     width: 70%;
+    margin-top: 10;
+    margin-left: 35%;
+    
 
 }
+
+.container2 {
+display: flex;
+margin-top: 115px;
+margin-left: 51px;
+
+}
+
+.containerLeft {
+    margin-top: 200px;
+    margin-left: 60px;
+      
+
+}
+
+.containerRigth {
+    border-width: 20px 30px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+   
+    
+}
+
