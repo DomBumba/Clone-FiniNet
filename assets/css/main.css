@@ -1,45 +1,90 @@
-
-body {
-    background-image:url("../img/download.jpg");
-}
-section {
-    
-    height: 100vh;
-    
+.fundo-principal {
+  background-image: url('../img/download.jpg');
+  background-size: 100%;
+  background-position: center;
+  height: 50vh;
 }
 
-.container1 {
-    width: 70%;
-    margin-top: 10;
-    margin-left: 35%;
-    
+.fundo-principal .container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
 
+  display: flex;
+  flex-direction: column;
 }
 
-.container2 {
-display: flex;
-margin-top: 115px;
-margin-left: 51px;
-margin-bottom: 20px;
+.fundo-principal .container .logo {
+  text-align: center;
 
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.containerLeft {
-    margin-top: 200px;
-    margin-left: 60px;
-      
-
+.fundo-principal .container .logo a img {
+  width: 15%;
 }
 
-.containerRigth {
-    border-width: 20px 30px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 280px;
-    margin-bottom: 40px;
-    height: 300px;
-    width: 300px;
-   
-    
+/* CONTAINER SECUNDÁRIO */
+.fundo-principal .container .container-secundario {
+  height: 80%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 13rem;
 }
 
+/* DESCRIÇÃO */
+.container-secundario .descricao {
+  width: 50%;
+}
+
+.container-secundario .descricao h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.container-secundario .descricao p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* FORM */
+.form {
+  background: #fff;
+
+  width: 32%;
+  height: 32vh;
+
+  margin-top: -3rem;
+}
+
+.form .form-header {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.form .form-header img {
+  margin-bottom: 1rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form form input {
+  border: 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.form form input[type='text'] {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
